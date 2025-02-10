@@ -1,0 +1,432 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./rentcss.css">
+    <title>Quavo Rent & Buy</title>
+</head>
+<body>
+    <div class="nav-bg">
+    <nav class="nav-container">
+        
+        <div class="top-bar">
+        <img src="../img/Logo.png" alt="logo-quavo" width="48px">
+        <div class="top-bar-list-div">
+            <ul class="top-bar-list" style="font-weight: bold;">
+                <li style="font-weight: 400;"><a href="../index.html" style="text-decoration: none;">Home</a></li>
+                <li style="font-weight: 400; color: yellow;">Rent</li>
+                <li style="font-weight: 400;"> Buy</li>
+                <li style="font-weight: 400;">About Us</li>
+            </ul>    
+            <div class="top-right-bar hidden">
+                <button class="yellow-bttn Publish">Publish</button>   
+               <img class="profile-pic" src="../icon/profile-user-svgrepo-com.svg" alt="profile-pic" height="36px" style="border-radius: 50px; margin-left: 10px;">
+           </div>
+           <svg class="hidden" width="44px" height="44px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffff00"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 18L20 18" stroke="#ffff00" stroke-width="2" stroke-linecap="round"></path> <path d="M4 12L20 12" stroke="#ffff00" stroke-width="2" stroke-linecap="round"></path> <path d="M4 6L20 6" stroke="#ffff00" stroke-width="2" stroke-linecap="round"></path> </g></svg>
+        </div>
+     
+                
+        </div>
+<div class="search-bar">
+        <div class="search-icon"> <img src="../icon/search-svgrepo-com.svg" alt="search" height="18px"></div>
+        <input type="search" placeholder="Search" class="search-xl">
+    </div>
+    </nav>
+</div>
+<div class="elements-container">
+<div class="left-bar-filters">
+    
+   <ul class="filter-list"> 
+    <h3>Search Filters</h3>
+    <h4>Category</h4>
+    <li style="color: whitesmoke;"> <input type="checkbox" class="checkbox" > House</li>
+    <li style="color: whitesmoke;"> <input type="checkbox" class="checkbox"> Aparment</li>
+    <li style="color: whitesmoke;"> <input type="checkbox" class="checkbox"> Field</li>  
+    <li style="color: whitesmoke;"> <input type="checkbox" class="checkbox"> Studio</li>
+    <li style="color: whitesmoke;"> <input type="checkbox" class="checkbox"> Party Room</li>
+    <li style="color: whitesmoke;"> <input type="checkbox" class="checkbox"> Others</li>
+   </ul>
+   <ul> <h4>Sale or Rent</h4>
+    <li style="color: whitesmoke;"> <input type="checkbox" class="checkbox"> Rent</li>
+    <li style="color: whitesmoke;"> <input type="checkbox" class="checkbox"> Sales</li>
+    <li style="color: whitesmoke;"> <input type="checkbox" class="checkbox"> Events</li>  
+   
+    <div class="slider-container">
+        <h4>Price</h4>
+        <div class="price-bar">
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        <div class="text-area-cont">
+ <input type="text" name="text" class="text-area" placeholder="min-price">
+ <input type="text" name="text" class="text-area" placeholder="max-price">
+    </div>
+</div>
+    </div>
+
+    <div class="location">
+        <h4>Location</h4>
+        <p style="color: whitesmoke;" >New York, NY.</p>
+    </div>
+
+    
+
+</ul>
+
+<ul> 
+    <h4>Sale or Rent</h4>
+    <li style="color: whitesmoke;"> <input type="checkbox" class="checkbox"> New</li>
+    <li style="color: whitesmoke;"> <input type="checkbox" class="checkbox"> Pre-Owned</li>
+    <li style="color: whitesmoke;"> <input type="checkbox" class="checkbox"> Renew</li>  
+</ul>
+
+</div>
+
+<div class="right-bar-search" style="margin-top: 30px;">
+
+    <div class="text-search">
+<div class="text-search-top">
+    <p>Search</p> <div class="yellow-txt">></div> <strong>Oakland, CA.</strong>
+</div>
+<select > 
+    <option value="0">Featured</option>
+    <option value="1">Price: Low to High</option>
+    <option value="3">Price: High to Low</option>
+    <option value="4">Newest</option>
+   </select>
+
+</div>
+<div class="product-search-container">
+<div class="products-search-rent">
+    <div class="product-card">
+      <img src="../img/casa1.png" alt="house1">
+    <div class="product-txt">
+        <p class="product-header">House</p>
+        <p class="product-location">Location: <span class="location">Oakland, CA</span></p>
+    </div>
+    <div class="product-txt-bottom-head">
+        <p class="product-type">On Sale:</p>
+        <p class="product-price">US$240,000</p>
+    </div>
+     <div class="product-details">
+        <div class="icon">
+    <img src="../icon/car.png" alt="car" class="icon-height"> 3
+    </div>
+    <div class="icon">
+    <img src="../icon/shower.png" alt="shower" class="icon-height"> 2
+    </div>
+    <div class="icon">
+    <img src="../icon/bed.png" alt="bed"class="icon-height"> 3
+    </div>
+    <div class="icon">
+    <img src="../icon/size.png" alt="sze" class="icon-height"> 250mts
+    </div>
+     </div>
+    
+    </div>
+    
+    <div class="product-card">
+        <img src="../img/casa3.png" alt="house1">
+      <div class="product-txt">
+          <p class="product-header">Apartment</p>
+          <p class="product-location">Location: <span class="location">New York, NY.</span></p>
+      </div>
+      <div class="product-txt-bottom-head">
+          <p class="product-type">Rent:</p>
+          <p class="product-price">US$5,000</p>
+      </div>
+       <div class="product-details">
+          <div class="icon">
+      <img src="../icon/car.png" alt="car" class="icon-height"> 1
+      </div>
+      <div class="icon">
+      <img src="../icon/shower.png" alt="shower" class="icon-height"> 1
+      </div>
+      <div class="icon">
+      <img src="../icon/bed.png" alt="bed" class="icon-height"> 2
+      </div>
+      <div class="icon">
+      <img src="../icon/size.png" alt="sze" class="icon-height"> 175mts
+      </div>
+       </div>
+      
+      </div>
+    
+      <div class="product-card">
+        <img src="../img/casa2.png" alt="house1">
+      <div class="product-txt">
+          <p class="product-header">Studio</p>
+          <p class="product-location">Location: <spanclass="location">Los Angeles, CA</span></p>
+      </div>
+      <div class="product-txt-bottom-head">
+          <p class="product-type">Rent:</p>
+          <p class="product-price">US$2,000</p>
+      </div>
+       <div class="product-details">
+          <div class="icon">
+      <img src="../icon/car.png" alt="car" class="icon-height"> 1
+      </div>
+      <div class="icon">
+      <img src="../icon/shower.png" alt="shower" class="icon-height"> 1
+      </div>
+      <div class="icon">
+      <img src="../icon/bed.png" alt="bed" class="icon-height"> 1
+      </div>
+      <div class="icon">
+      <img src="../icon/size.png" alt="sze" class="icon-height"> 150mts
+      </div>
+       </div>
+      
+      </div>
+      <div class="product-card">
+        <img src="../img/casa2.png" alt="house1">
+      <div class="product-txt">
+          <p class="product-header">Studio</p>
+          <p class="product-location">Location: <spanclass="location">Los Angeles, CA</span></p>
+      </div>
+      <div class="product-txt-bottom-head">
+          <p class="product-type">Rent:</p>
+          <p class="product-price">US$2,000</p>
+      </div>
+       <div class="product-details">
+          <div class="icon">
+      <img src="../icon/car.png" alt="car" class="icon-height"> 1
+      </div>
+      <div class="icon">
+      <img src="../icon/shower.png" alt="shower" class="icon-height"> 1
+      </div>
+      <div class="icon">
+      <img src="../icon/bed.png" alt="bed" class="icon-height"> 1
+      </div>
+      <div class="icon">
+      <img src="../icon/size.png" alt="sze" class="icon-height"> 150mts
+      </div>
+       </div>
+      
+      </div>
+    
+   
+    </div>
+
+    <div class="products-search-rent" style="margin-top: 20px;">
+        <div class="product-card">
+          <img src="../img/casa1.png" alt="house1">
+        <div class="product-txt">
+            <p class="product-header">House</p>
+            <p class="product-location">Location: <span class="location">Oakland, CA</span></p>
+        </div>
+        <div class="product-txt-bottom-head">
+            <p class="product-type">On Sale:</p>
+            <p class="product-price">US$240,000</p>
+        </div>
+         <div class="product-details">
+            <div class="icon">
+        <img src="../icon/car.png" alt="car" class="icon-height"> 3
+        </div>
+        <div class="icon">
+        <img src="../icon/shower.png" alt="shower" class="icon-height"> 2
+        </div>
+        <div class="icon">
+        <img src="../icon/bed.png" alt="bed"class="icon-height"> 3
+        </div>
+        <div class="icon">
+        <img src="../icon/size.png" alt="sze" class="icon-height"> 250mts
+        </div>
+         </div>
+        
+        </div>
+        
+        <div class="product-card">
+            <img src="../img/casa3.png" alt="house1">
+          <div class="product-txt">
+              <p class="product-header">Apartment</p>
+              <p class="product-location">Location: <span class="location">New York, NY.</span></p>
+          </div>
+          <div class="product-txt-bottom-head">
+              <p class="product-type">Rent:</p>
+              <p class="product-price">US$5,000</p>
+          </div>
+           <div class="product-details">
+              <div class="icon">
+          <img src="../icon/car.png" alt="car" class="icon-height"> 1
+          </div>
+          <div class="icon">
+          <img src="../icon/shower.png" alt="shower" class="icon-height"> 1
+          </div>
+          <div class="icon">
+          <img src="../icon/bed.png" alt="bed" class="icon-height"> 2
+          </div>
+          <div class="icon">
+          <img src="../icon/size.png" alt="sze" class="icon-height"> 175mts
+          </div>
+           </div>
+          
+          </div>
+          <div class="product-card">
+            <img src="../img/casa2.png" alt="house1">
+          <div class="product-txt">
+              <p class="product-header">Studio</p>
+              <p class="product-location">Location: <spanclass="location">Los Angeles, CA</span></p>
+          </div>
+          <div class="product-txt-bottom-head">
+              <p class="product-type">Rent:</p>
+              <p class="product-price">US$2,000</p>
+          </div>
+           <div class="product-details">
+              <div class="icon">
+          <img src="../icon/car.png" alt="car" class="icon-height"> 1
+          </div>
+          <div class="icon">
+          <img src="../icon/shower.png" alt="shower" class="icon-height"> 1
+          </div>
+          <div class="icon">
+          <img src="../icon/bed.png" alt="bed" class="icon-height"> 1
+          </div>
+          <div class="icon">
+          <img src="../icon/size.png" alt="sze" class="icon-height"> 150mts
+          </div>
+           </div>
+          
+          </div>
+          <div class="product-card">
+            <img src="../img/casa2.png" alt="house1">
+          <div class="product-txt">
+              <p class="product-header">Studio</p>
+              <p class="product-location">Location: <spanclass="location">Los Angeles, CA</span></p>
+          </div>
+          <div class="product-txt-bottom-head">
+              <p class="product-type">Rent:</p>
+              <p class="product-price">US$2,000</p>
+          </div>
+           <div class="product-details">
+              <div class="icon">
+          <img src="../icon/car.png" alt="car" class="icon-height"> 1
+          </div>
+          <div class="icon">
+          <img src="../icon/shower.png" alt="shower" class="icon-height"> 1
+          </div>
+          <div class="icon">
+          <img src="../icon/bed.png" alt="bed" class="icon-height"> 1
+          </div>
+          <div class="icon">
+          <img src="../icon/size.png" alt="sze" class="icon-height"> 150mts
+          </div>
+           </div>
+          
+          </div>
+        </div>
+
+        <div class="products-search-rent" style="margin-top: 20px;">
+
+            <div class="product-card">
+                <img src="../img/casa2.png" alt="house1">
+              <div class="product-txt">
+                  <p class="product-header">Studio</p>
+                  <p class="product-location">Location: <spanclass="location">Los Angeles, CA</span></p>
+              </div>
+              <div class="product-txt-bottom-head">
+                  <p class="product-type">Rent:</p>
+                  <p class="product-price">US$2,000</p>
+              </div>
+               <div class="product-details">
+                  <div class="icon">
+              <img src="../icon/car.png" alt="car" class="icon-height"> 1
+              </div>
+              <div class="icon">
+              <img src="../icon/shower.png" alt="shower" class="icon-height"> 1
+              </div>
+              <div class="icon">
+              <img src="../icon/bed.png" alt="bed" class="icon-height"> 1
+              </div>
+              <div class="icon">
+              <img src="../icon/size.png" alt="sze" class="icon-height"> 150mts
+              </div>
+               </div>
+              
+              </div>
+            <div class="product-card">
+              <img src="../img/casa1.png" alt="house1">
+            <div class="product-txt">
+                <p class="product-header">House</p>
+                <p class="product-location">Location: <span class="location">Oakland, CA</span></p>
+            </div>
+            <div class="product-txt-bottom-head">
+                <p class="product-type">On Sale:</p>
+                <p class="product-price">US$240,000</p>
+            </div>
+             <div class="product-details">
+                <div class="icon">
+            <img src="../icon/car.png" alt="car" class="icon-height"> 3
+            </div>
+            <div class="icon">
+            <img src="../icon/shower.png" alt="shower" class="icon-height"> 2
+            </div>
+            <div class="icon">
+            <img src="../icon/bed.png" alt="bed"class="icon-height"> 3
+            </div>
+            <div class="icon">
+            <img src="../icon/size.png" alt="sze" class="icon-height"> 250mts
+            </div>
+             </div>
+            
+            </div>
+            
+            <div class="product-card">
+                <img src="../img/casa3.png" alt="house1">
+              <div class="product-txt">
+                  <p class="product-header">Apartment</p>
+                  <p class="product-location">Location: <span class="location">New York, NY.</span></p>
+              </div>
+              <div class="product-txt-bottom-head">
+                  <p class="product-type">Rent:</p>
+                  <p class="product-price">US$5,000</p>
+              </div>
+               <div class="product-details">
+                  <div class="icon">
+              <img src="../icon/car.png" alt="car" class="icon-height"> 1
+              </div>
+              <div class="icon">
+              <img src="../icon/shower.png" alt="shower" class="icon-height"> 1
+              </div>
+              <div class="icon">
+              <img src="../icon/bed.png" alt="bed" class="icon-height"> 2
+              </div>
+              <div class="icon">
+              <img src="../icon/size.png" alt="sze" class="icon-height"> 175mts
+              </div>
+               </div>
+              
+              </div>
+            
+              <div class="product-card">
+                <img src="../img/casa2.png" alt="house1">
+              <div class="product-txt">
+                  <p class="product-header">Studio</p>
+                  <p class="product-location">Location: <spanclass="location">Los Angeles, CA</span></p>
+              </div>
+              <div class="product-txt-bottom-head">
+                  <p class="product-type">Rent:</p>
+                  <p class="product-price">US$2,000</p>
+              </div>
+               <div class="product-details">
+                  <div class="icon">
+              <img src="../icon/car.png" alt="car" class="icon-height"> 1
+              </div>
+              <div class="icon">
+              <img src="../icon/shower.png" alt="shower" class="icon-height"> 1
+              </div>
+              <div class="icon">
+              <img src="../icon/bed.png" alt="bed" class="icon-height"> 1
+              </div>
+              <div class="icon">
+              <img src="../icon/size.png" alt="sze" class="icon-height"> 150mts
+              </div>
+               </div>
+              
+              </div>
+            </div>
+    </div>
+
+</div>
+</div>
+
+</body>
+</html>
