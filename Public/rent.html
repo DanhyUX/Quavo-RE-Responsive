@@ -12,17 +12,17 @@
         <div class="top-bar">
         <img src="../img/Logo.png" alt="logo-quavo" width="48px">
         <div class="top-bar-list-div">
-            <ul class="top-bar-list" style="font-weight: bold;">
+            <ul class="top-bar-list " style="font-weight: bold;">
                 <li style="font-weight: 400;"><a href="../index.html" style="text-decoration: none;">Home</a></li>
-                <li style="font-weight: 400; color: yellow;">Rent</li>
+                <li style="font-weight: 400; color: #ffff00;">Rent</li>
                 <li style="font-weight: 400;"> Buy</li>
                 <li style="font-weight: 400;">About Us</li>
             </ul>    
-            <div class="top-right-bar hidden">
+            <div class="top-right-bar ">
                 <button class="yellow-bttn Publish">Publish</button>   
-               <img class="profile-pic" src="../icon/profile-user-svgrepo-com.svg" alt="profile-pic" height="36px" style="border-radius: 50px; margin-left: 10px;">
+               <img class="profile-pic hidden" src="../icon/profile-user-svgrepo-com.svg" alt="profile-pic" height="36px" style="border-radius: 50px; margin-left: 10px;">
            </div>
-           <svg class="hidden" width="44px" height="44px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffff00"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 18L20 18" stroke="#ffff00" stroke-width="2" stroke-linecap="round"></path> <path d="M4 12L20 12" stroke="#ffff00" stroke-width="2" stroke-linecap="round"></path> <path d="M4 6L20 6" stroke="#ffff00" stroke-width="2" stroke-linecap="round"></path> </g></svg>
+           <svg id="hidden" width="44px" height="44px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffff00"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 18L20 18" stroke="#ffff00" stroke-width="2" stroke-linecap="round"></path> <path d="M4 12L20 12" stroke="#ffff00" stroke-width="2" stroke-linecap="round"></path> <path d="M4 6L20 6" stroke="#ffff00" stroke-width="2" stroke-linecap="round"></path> </g></svg>
         </div>
      
                 
@@ -33,10 +33,10 @@
     </div>
     </nav>
 </div>
-<div class="elements-container">
-<div class="left-bar-filters">
+<div class="elements-container ">
+<div class="left-bar-filters hidden">
     
-   <ul class="filter-list"> 
+   <ul class="filter-list  "> 
     <h3>Search Filters</h3>
     <h4>Category</h4>
     <li style="color: whitesmoke;"> <input type="checkbox" class="checkbox" > House</li>
@@ -82,16 +82,24 @@
 
 <div class="right-bar-search" style="margin-top: 30px;">
 
-    <div class="text-search">
+<div class="text-search">
+    
+    <div class="filters">
+    
+        <p>View first:</p>     <select > 
+            <option value="0">Featured</option>
+            <option value="1">Price: Low to High</option>
+            <option value="3">Price: High to Low</option>
+            <option value="4">Newest</option>
+           </select>
+           
+        </div>
 <div class="text-search-top">
-    <p>Search</p> <div class="yellow-txt">></div> <strong>Oakland, CA.</strong>
+    <h3 class="filter-icon">Filters</h3> 
+    <svg class="filter-icon" width="54px" height="24px"  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffff00"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M19 4V10M19 10C17.8954 10 17 10.8954 17 12C17 13.1046 17.8954 14 19 14M19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14M19 14V20M12 4V16M12 16C10.8954 16 10 16.8954 10 18C10 19.1046 10.8954 20 12 20C13.1046 20 14 19.1046 14 18C14 16.8954 13.1046 16 12 16ZM5 8V20M5 8C6.10457 8 7 7.10457 7 6C7 4.89543 6.10457 4 5 4C3.89543 4 3 4.89543 3 6C3 7.10457 3.89543 8 5 8Z" stroke="#575757" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
 </div>
-<select > 
-    <option value="0">Featured</option>
-    <option value="1">Price: Low to High</option>
-    <option value="3">Price: High to Low</option>
-    <option value="4">Newest</option>
-   </select>
+
+
 
 </div>
 <div class="product-search-container">
