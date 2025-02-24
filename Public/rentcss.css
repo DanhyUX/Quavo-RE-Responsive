@@ -55,9 +55,7 @@ ul {
     height: 30px;
 }
 
-a {
-    color: whitesmoke;
-}
+
 
 li:hover, a:hover {
     color: #ffff00;
